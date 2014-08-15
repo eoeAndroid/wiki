@@ -1,0 +1,24 @@
+# Site settings
+title: Android文档
+email: eoeandroid@eoemobile.com
+description: Android文档
+# baseurl: "http://docs.eoeandroid.com"
+baseurl: ""
+highlighter: ""
+relative_permalinks: true
+url: "http://docs.eoeandroid.com"
+exclude: ["SOURCE", "script", "Gemfile", "Gemfile.lock","epub_tmp","ebooks"]
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+kramdown:
+  input: GFM
+# sitemap:
+#   file: "/sitemap.xml"
+#   exclude:
+#       - "/atom.xml"
+#       - "/feed.xml"
+#       - "/feed/index.xml"
+#   include_posts:
+#       - "/index.html"

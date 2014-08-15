@@ -1,0 +1,26 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }} - {{site.title}} {% else %}{{ site.title }}{% endif %}</title>
+    <meta name="keywords" content="Material Design 翻译,Material Design 中文版,Material Design 中文翻译,Material Design,Animation,Style,Layout,Components,Patterns,Usability,Resources" />
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width">
+    
+    <meta name="google-site-verification" content="u_spGpGelREtlT5DBka76njUf5APi7V7O_RFcRSIZKM" />
+    <meta name="baidu-site-verification" content="TD5AUMpEdH" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="icon" type="image/x-icon" href="{{ "/favico.ico" | prepend: site.baseurl }}" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<link href="http://cdn.bootcss.com/semantic-ui/0.16.1/css/semantic.min.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://cdn.bootcss.com/semantic-ui/0.16.1/javascript/semantic.js"></script>
+ 
+   <script>
+    $('.overlay.sidebar').sidebar({overlay: true}).sidebar('toggle');
+
+     
+
+   </script>
+
+</head>
